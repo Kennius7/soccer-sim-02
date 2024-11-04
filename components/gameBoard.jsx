@@ -14,6 +14,9 @@ const GameBoard = () => {
     const positionY = useRef(new Animated.Value(0)).current;
     const intervalRef = useRef(null);
 
+    const btnWidth = "150px";
+    const btnHeight = "30px";
+
     // useEffect(() => {
     //     const intervalRef = setInterval(() => {
     //         Animated.spring(positionX, {
@@ -95,8 +98,8 @@ const GameBoard = () => {
                         marginTop={30} 
                         bgColor={"red.300"} 
                         borderRadius={10} 
-                        w={40} 
-                        h={10}
+                        w={btnWidth} 
+                        h={btnHeight}
                         flexDirection={"row"}
                         justifyContent={"center"}
                         alignItems={"center"}
@@ -109,8 +112,8 @@ const GameBoard = () => {
                         marginTop={30} 
                         bgColor={"green.200"} 
                         borderRadius={10} 
-                        w={40} 
-                        h={10}
+                        w={btnWidth} 
+                        h={btnHeight}
                         flexDirection={"row"}
                         justifyContent={"center"}
                         alignItems={"center"}
@@ -123,8 +126,8 @@ const GameBoard = () => {
                         marginTop={30} 
                         bgColor={"blue.300"} 
                         borderRadius={10} 
-                        w={40} 
-                        h={10}
+                        w={btnWidth} 
+                        h={btnHeight}
                         flexDirection={"row"}
                         justifyContent={"center"}
                         alignItems={"center"}
