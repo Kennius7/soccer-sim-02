@@ -93,7 +93,7 @@ const GameBoard = () => {
                 alignItems={"center"}
             >
                 <FootBallField>
-                    <Pressable 
+                    {/* <Pressable 
                         onPress={startMotion} 
                         marginTop={30} 
                         bgColor={"red.300"} 
@@ -139,7 +139,7 @@ const GameBoard = () => {
                         style={{ transform: [{ translateX: positionX }, { translateY: positionY }] }} 
                     >
                         <Image source={Ball} alt={"ball"} style={{ width: 15, height: 15 }} />
-                    </Animated.View>
+                    </Animated.View> */}
                 </FootBallField>
             </View>
         </Box>
